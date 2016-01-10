@@ -1,26 +1,21 @@
 ---
 layout: default
-title: Long Haul
+title: Youth Coalition For Alcohol Education
 ---
 
-<div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
-      </li>
-    {% endfor %}
-  </ul>
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
-    {% endif %}
-  </div>
+<div class="post">
+  <h1 class="pageTitle">Who are we?</h1>
+  <img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
+  <p class="intro">We’re a group of teens making a difference. We’re open to any high school student in Fayette County (public and private schools) who wants to be a peer leader and have an impact on the community.</p>
+  <h1 class="pageTitle">What do we do?</h1>
+  <p class="intro">We educate youth and adults on the risks involved in underage drinking through presentations to both adults and teens, television appearances, radio spots, and special projects.</p>
+  <h1 class="pageTitle">When do we meet?</h1>
+  <p class="intro">We meet approximately once a month for pizza and discussion. We currently meet on Sunday afternoons. Times are decided by the group, as we want to work around everyone’s busy schedule.</p>
+  <h1 class="pageTitle">Why get involved?</h1>
+  <p class="intro">Show your peers that there are betterthings to do than drink alcohol. Also, this coalition is a unique leadership opportunity to interact with community leaders concerning something that truly makes a difference in people’s lives.</p>
+  <h2>How are we connected to the community? </h2>
+  <p>This youth-led organization works with local and state leaders. We’re sponsored by the Fayette County ASAP.
+
+The Youth Coalition serves as the Youth Voice for this county-wide group. Teens have the opportunity to interact with community leaders & advise them on how to design programs to reduce teen substance abuse.</p>
+<p>Interested? Contact sponsor Marisa Aull, <a href="mailto:marisafitzgerald@hotmail.com"> marisafitzgerald@hotmail.com</a></p>
 </div>
