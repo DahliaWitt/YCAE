@@ -1,8 +1,8 @@
 title: Youth Coalition For Alcohol Education
 description: Fayette YCAE
 
-url: http://drakewitt.github.com/YCAE
-baseurl: ""
+url: http://drakewitt.github.com/YCAE/
+baseurl: "/YCAE"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
